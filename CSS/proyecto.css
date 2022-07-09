@@ -1,0 +1,284 @@
+*   
+    body{
+        background-image: url(https://www.qvision.es/blogs/wp-content/uploads/2021/05/go-en-forma-woman-running.jpg);
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+        h1
+        {
+        font-weight: lighter;
+        text-align: center;
+        font-size: 100px;
+        color:blue;
+        background: rgba(255, 217, 0, 0.589);
+        border: solid;
+        }
+
+    .nav__lista1 li{
+        width: 355px;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }    
+
+
+    .nav__lista1 li a{
+        text-decoration: none;
+        font-family:sans-serif;
+        display: block;
+        padding: 5px;
+        margin-top: 1px;
+        background-color: rgba(70, 119, 255, 0.267);
+        color: rgb(0, 4, 255);
+        border-style:ridge;
+        border-color:rgb(0, 38, 255, 0.993);
+        border-radius: 20px;
+    }
+
+    .nav__lista1 li{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .nav__lista1 :hover{
+        text-decoration: underline;
+        background: rgba(255, 217, 0, 0.589);
+    }
+    .nav__lista1 :hover > ul{
+        display: block;
+    }
+    .nav__lista1 ul{
+        display: none;
+        position: absolute;
+        padding: 0px;
+    }
+
+    h2{
+        text-align: left;
+        text-decoration: underline;
+        font-size: 50px;
+        color:rgb(0, 38, 255, 0.993);
+    }
+
+
+    .info p{
+        text-align: left;
+        color:rgba(0, 38, 255, 0.993);
+        font-size: 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .caja-verde{
+        color:yellow;
+        font-size: 30px;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        background-color: rgba(0, 119, 255, 0.486);
+    }
+
+
+    footer a{
+    color: rgb(0, 68, 255);
+    background-color: rgba(255, 166, 0, 0.726);
+    }
+    
+    footer small{
+        background-color: rgba(255, 166, 0, 0.726);
+        color: rgb(0, 49, 211);
+    }
+    
+    /*productos.html*/
+    
+    .nav__lista2 li {
+        width: 450px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+
+    .nav__lista2 li a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        margin-top: 1px;
+        background-color: rgba(207, 151, 76, 0.562);
+        color: rgb(255, 136, 0);
+        border-style:ridge;
+        border-color:rgba(255, 0, 255, 0.425);
+        border-radius: 10px;
+    }
+    
+    
+
+    .nav__lista2 li{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .nav__lista2 :hover{
+        text-decoration: underline;
+        background: rgba(85, 1, 153, 0.37);
+
+    }
+    .nav__lista2 :hover > ul{
+        display: block;
+    }
+    .nav__lista2 ul{
+        display: none;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        font-size: 15px;
+    }
+
+    form {
+        background-color: rgba(153, 0, 255, 0.493);
+        color: rgb(255, 102, 0);
+        display: flex;
+        font-size:x-large;
+        font-style: italic;
+        font-weight: bold;
+        font-variant: small-caps;
+        justify-content: center;
+    }
+
+    /*quienes somos.html*/
+
+    .nav__lista3 li {
+        width: 450px;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+
+    .nav__lista3 li a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        margin-top: 1px;
+        background-color: rgba(207, 151, 76, 0.562);
+        color: rgb(255, 136, 0);
+        border-style:ridge;
+        border-color:rgba(255, 0, 255, 0.425);
+        border-radius: 10px;
+    }
+    
+    
+
+    .nav__lista3 li{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .nav__lista3 :hover{
+        text-decoration: underline;
+        background: rgba(85, 1, 153, 0.37);
+
+    }
+    .nav__lista3 :hover > ul{
+        display: block;
+    }
+    .nav__lista3 ul{
+        display: none;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        font-size: 15px;
+    }
+
+    
+
+    /*ubicacion.html*/
+
+    .nav__lista4 li {
+        width: 450px;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+
+    .nav__lista4 li a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        margin-top: 1px;
+        background-color: rgba(207, 151, 76, 0.562);
+        color: rgb(255, 136, 0);
+        border-style:ridge;
+        border-color:rgba(255, 0, 255, 0.425);
+        border-radius: 10px;
+    }
+    
+    
+
+    .nav__lista4 li{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .nav__lista4 :hover{
+        text-decoration: underline;
+        background: rgba(85, 1, 153, 0.37);
+
+    }
+    .nav__lista4 :hover > ul{
+        display: block;
+    }
+    .nav__lista4 ul{
+        display: none;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        font-size: 15px;
+    }
+
+    /*contacto.html*/
+
+    .nav__lista5 li {
+        width: 450px;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+
+    .nav__lista5 li a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        margin-top: 1px;
+        background-color: rgba(207, 151, 76, 0.562);
+        color: rgb(255, 136, 0);
+        border-style:ridge;
+        border-color:rgba(255, 0, 255, 0.425);
+        border-radius: 10px;
+    }
+    
+    
+
+    .nav__lista5 li{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .nav__lista5 :hover{
+        text-decoration: underline;
+        background: rgba(85, 1, 153, 0.37);
+
+    }
+    .nav__lista5 :hover > ul{
+        display: block;
+    }
+    .nav__lista5 ul{
+        display: none;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        font-size: 15px;}
